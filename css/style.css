@@ -1,0 +1,210 @@
+@media (max-width:1000px) {
+  #card-section{
+    visibility: hidden;
+    display: none;
+  
+  }
+  .special2{
+    margin-top: 1em;
+  }
+}
+@media (max-width:576px){
+
+  .caption a{
+    font-size:0.9em;
+  }
+}
+body{
+
+background-color:black;
+}
+
+/* main site name */
+.brand{
+  margin-left: 2%;
+}
+
+/* saerch bar */
+.nav-search{
+  box-sizing: border-box;
+  width:50%;
+    padding: 0.375em 0px 0.375rem 0.5rem;
+    outline: none;
+    border-radius: 5px 0px 0px 5px;
+}
+.nav-search:focus{
+  border: 2px solid yellow;
+}
+
+/* search icon */
+.search-icon{
+  background-color: orange;
+  padding: 0.54em;
+  outline: none;
+  cursor: pointer;
+}
+
+/* navbar icons of films tvshows */
+.logo{
+  padding-right: 0.25em;
+  padding-left: 0.5em;
+}
+
+/* corousel caption */
+.caption{
+   color: white;
+   background-color:rgba(63, 60, 60, 0.273);
+   margin-bottom: 2%;
+}
+/* caption link */
+.caption-link{
+  color: white;
+  font-size:1.5em;
+  text-transform:capitalize;
+  text-decoration: none;
+
+}
+.caption-link:hover{
+  color: white;
+}
+.caption-small{
+  color:beige;
+  text-decoration: none;
+  text-transform:capitalize;
+  font-size: large;
+}
+.caption-small:hover{
+  color:beige;
+}
+.special{
+  color: yellowgreen;
+}
+.card-body{
+  color: white;
+}
+.row{
+  overflow: hidden;
+}
+.cards .card{
+  height: 25%;
+}
+span{
+  color:white
+}
+
+.fa-star{
+  color: yellow;
+  display: inline;
+}
+.fa-star-o{
+  margin-left: .5em ;
+}
+.card p{
+  margin-top: 0.5em;
+  margin-bottom: 0em !important;
+}
+.card .fa-play{
+   margin-right: 5px;
+}
+.card-body{
+  padding-bottom: 0.5% !important;
+}
+.box-office .border-box-office{
+   margin-left: 0.5em;
+   border-left: 1px solid yellow;
+   margin-left: 2%;
+}
+.special3{
+  color: white;
+
+  border-left: 3px solid yellow;
+  padding-left: 1%;
+  margin-top: 4%;
+  margin-bottom: 2%;
+}
+.box-office .fa-film{
+     color: white;
+     padding-left: 1%;
+     padding-right: 1%;
+}
+.box-office .fa-ticket{
+  color: blue;
+ position: relative;
+ left: 20%;
+}
+.box-office .text-muted{
+  margin-left: 5%;
+}
+.box-office .col-6:hover{
+      background-color: rgb(45, 39, 39);
+}
+.c3 img{
+  border-radius: 50%; 
+}
+
+.special2{
+  color:yellow;
+}
+
+.b1{
+  font-size: small;
+  background-color: yellow;
+  border-radius: 8px;
+  padding: 5px 20px 5px 20px;
+  
+}
+
+.b1:hover{
+   background-color: darkorange;
+}
+footer{
+  text-align: center;
+  margin-top: 30px;
+}
+/* 
+.main{
+
+  width: 1400px; 
+  height: 600px;
+} */
+
+.f-logo{
+  color: white;
+  margin: 20px 15px;
+  cursor: pointer;
+  padding: 15px;
+  border-radius: 6px;
+
+}
+.f-logo:hover{
+
+  background-color: grey;
+}
+.social{
+  margin-top: 20px;
+}
+
+.copyright{
+  color: white;
+  margin-bottom: 15px;
+  margin-top: 20px;
+  font-size: small;
+}
+
+
+.privacy a{
+  color: white !important;
+  text-decoration: none;
+  margin-left: 20px;
+}
+.privacy a:hover{
+  text-decoration: underline;
+}
+.c2 span{
+  display: flex;
+  font-size: large;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  justify-content: center;
+  margin-top: 3%;
+  text-decoration: underline;
+}
